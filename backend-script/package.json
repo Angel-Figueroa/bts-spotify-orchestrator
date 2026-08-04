@@ -1,0 +1,14 @@
+{
+  "name": "bts-backend-orchestrator",
+  "version": "1.0.0",
+  "description": "Script de preproceso y conexion con la API de Spotify para Borahae Beats",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "@supabase/supabase-js": "^2.39.0",
+    "dotenv": "^16.4.0",
+    "node-fetch": "^3.3.2"
+  }
+}
